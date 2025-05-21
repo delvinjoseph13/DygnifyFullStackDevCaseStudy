@@ -29,4 +29,4 @@ How to Use
 4. The chart will show heatwave days, drought days, and rainfall events across the selected time range.
 
 Link to Github
-Climate Hazard Analyzer Live Demo
+https://github.com/delvinjoseph13/DygnifyFullStackDevCaseStudy
