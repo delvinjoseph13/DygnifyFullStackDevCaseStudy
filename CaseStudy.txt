@@ -1,0 +1,29 @@
+Climate Hazard Analyzer — Case Study Writeup
+Project Overview
+The Climate Hazard Analyzer is a web application designed to analyze and visualize climate hazards such as heatwaves, droughts, and rainfall events over a given geographic location and time range. The application allows users to input latitude, longitude, start year, and end year, then fetches relevant climate data and presents it in an interactive chart format.
+
+Application Features
+User inputs geographic coordinates and time range.
+
+Backend generates climate hazard data by fetching and processing weather data from external APIs.
+
+Frontend visualizes hazard trends using Chart.js.
+
+Loading states and input validation improve user experience.
+
+Tech Stack
+Frontend: React, Chart.js, Axios
+
+Backend: Node.js, Express.js
+
+Data Source: Open-Meteo API (or similar) for weather/climate data
+
+How to Use
+
+1. Enter latitude and longitude of the target location (e.g., 10.8505, 76.2711).
+
+2. Specify start and end years for analysis (e.g., 2010 to 2020).
+
+3. Click Analyze to fetch and display climate hazard data.
+
+4. The chart will show heatwave days, drought days, and rainfall events across the selected time range.
