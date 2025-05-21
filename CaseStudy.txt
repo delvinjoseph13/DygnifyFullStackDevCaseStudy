@@ -27,3 +27,6 @@ How to Use
 3. Click Analyze to fetch and display climate hazard data.
 
 4. The chart will show heatwave days, drought days, and rainfall events across the selected time range.
+
+Link to Github
+Climate Hazard Analyzer Live Demo
