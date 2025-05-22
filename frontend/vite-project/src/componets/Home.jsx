@@ -18,7 +18,7 @@ function Home() {
 
     try {
       setLoading(true);
-      await axios.post('http://localhost:5000/api/generate-hazards', {
+      await axios.post('https://dygnifyfullstackdevcasestudy-1.onrender.com/api/generate-hazards', {
         lat: parseFloat(lat),
         lon: parseFloat(lon),
         timeRange: { start: startYear, end: endYear }
@@ -33,7 +33,7 @@ function Home() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/api/hazards', {
+      const response = await axios.post('https://dygnifyfullstackdevcasestudy-1.onrender.com/api/hazards', {
         lat: parseFloat(lat),
         lon: parseFloat(lon),
         timeRange: { start: startYear, end: endYear }
